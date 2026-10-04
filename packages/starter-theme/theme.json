@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 2,
+  "brightness": "light",
+  "colors": {
+    "canvas": "#F6F3EC",
+    "canvasElevated": "#FEFDF9",
+    "surface": "#FBF9F4",
+    "surfaceVariant": "#EFE9DD",
+    "surfaceSunken": "#E6DECD",
+    "hairline": "#1A37322A",
+    "hairlineStrong": "#3337322A",
+    "textPrimary": "#37322A",
+    "textSecondary": "#6E6556",
+    "textTertiary": "#9D9485",
+    "textOnAccent": "#FFFFFF",
+    "accent": "#7FA37A",
+    "accentPress": "#6B8C66",
+    "accentSubtle": "#1A7FA37A",
+    "success": "#5C9A6E",
+    "successSubtle": "#1A5C9A6E",
+    "warning": "#C99B5A",
+    "warningSubtle": "#1AC99B5A",
+    "danger": "#C06B5E",
+    "dangerSubtle": "#1AC06B5E",
+    "scrim": "#73373029",
+    "shadow": "#147FA37A",
+    "currentPlaying": "#7FA37A",
+    "rankFirst": "#C9A45A",
+    "rankSecond": "#9AA3AF",
+    "rankThird": "#C08A63",
+    "favorite": "#C06B5E"
+  },
+  "typo": {
+    "display": {
+      "fontSize": 28,
+      "fontWeight": 700,
+      "height": 1.2,
+      "letterSpacing": -0.5
+    },
+    "title": {
+      "fontSize": 22,
+      "fontWeight": 700,
+      "height": 1.3,
+      "letterSpacing": -0.2
+    },
+    "heading": {
+      "fontSize": 17,
+      "fontWeight": 600,
+      "height": 1.35
+    },
+    "body": {
+      "fontSize": 15,
+      "fontWeight": 500,
+      "height": 1.45
+    },
+    "bodyStrong": {
+      "fontSize": 15,
+      "fontWeight": 600,
+      "height": 1.45
+    },
+    "caption": {
+      "fontSize": 13,
+      "fontWeight": 400,
+      "height": 1.45
+    },
+    "label": {
+      "fontSize": 11,
+      "fontWeight": 500,
+      "letterSpacing": 0.3,
+      "height": 1.2
+    },
+    "numeric": {
+      "fontSize": 13,
+      "fontWeight": 600,
+      "height": 1.2
+    }
+  },
+  "motion": {
+    "fast": 150,
+    "normal": 220,
+    "slow": 320,
+    "pageTransition": 280,
+    "stagger": 32,
+    "enter": "easeOut",
+    "exit": "easeIn",
+    "emphasis": "easeOutCubic",
+    "pressScale": 0.97,
+    "enterOffset": 4
+  },
+  "glass": {
+    "lightBlur": 12,
+    "mediumBlur": 22,
+    "heavyBlur": 32,
+    "lightOpacityLight": 0.72,
+    "mediumOpacityLight": 0.86,
+    "heavyOpacityLight": 0.92,
+    "borderOpacityLight": 0.5,
+    "borderWidth": 0.5,
+    "shadowBlur": 24,
+    "shadowOffsetX": 0,
+    "shadowOffsetY": 8,
+    "shadowOpacityLight": 0.08,
+    "pressScale": 0.96
+  },
+  "player": {
+    "preset": "standard",
+    "background": {
+      "mode": "coverBlur"
+    },
+    "cover": {
+      "shape": "rounded",
+      "halo": "sweep",
+      "spin": false
+    },
+    "lyrics": {
+      "align": "center",
+      "highlight": "gradient",
+      "activeScale": 5,
+      "inactiveOpacity": [0.6, 0.4, 0.25],
+      "lineHeight": 1.5,
+      "fadeEdge": 0.16,
+      "showTranslation": true
+    },
+    "haloEnabled": true,
+    "haloDuration": 16000,
+    "breathEnabled": true,
+    "breathDuration": 4500,
+    "backgroundBlurIntensity": 70,
+    "backgroundOverlayOpacity": 0.4,
+    "lightBackgroundBase": 1932997162
+  }
+}

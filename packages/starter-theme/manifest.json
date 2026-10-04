@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "id": "my-first-theme",
+  "name": "我的第一个主题",
+  "version": "1.0.0",
+  "author": {
+    "name": "Your Name"
+  },
+  "description": "NoraMusic 主题入门模板：米白暖底配鼠尾草绿强调色，包含全部 26 个颜色字段和常用的排版、动效、毛玻璃、播放页配置，可直接打包安装，也可以在此基础上改出你自己的主题。",
+  "license": "MIT",
+  "tags": [
+    "starter",
+    "warm",
+    "light"
+  ],
+  "brightnessSupport": "light",
+  "category": "nature"
+}
