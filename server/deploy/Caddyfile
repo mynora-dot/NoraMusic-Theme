@@ -1,0 +1,3 @@
+themes.example.com {
+    reverse_proxy theme-store:8090
+}

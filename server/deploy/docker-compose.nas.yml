@@ -1,0 +1,18 @@
+services:
+  theme-store:
+    build: ..
+    container_name: nora-theme-store
+    restart: unless-stopped
+    ports:
+      - "8090:8090"
+    environment:
+      NORA_DEPLOY_MODE: lan
+      LISTEN_ADDR: 0.0.0.0:8090
+      ALLOW_LAN_HTTP: "true"
+      DATA_DIR: /data
+      DATABASE_PATH: /data/themes.db
+      ADMIN_ALLOWED_CIDRS: 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,127.0.0.1/32
+    volumes:
+      - theme-store-data:/data
+volumes:
+  theme-store-data:

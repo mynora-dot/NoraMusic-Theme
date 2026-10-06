@@ -1,0 +1,32 @@
+services:
+  theme-store:
+    build: ..
+    restart: unless-stopped
+    environment:
+      NORA_DEPLOY_MODE: public
+      LISTEN_ADDR: 0.0.0.0:8090
+      PUBLIC_BASE_URL: https://themes.example.com
+      DATA_DIR: /data
+      DATABASE_PATH: /data/themes.db
+      TRUSTED_PROXY_CIDRS: 172.16.0.0/12
+      # Public admin access is protected by HTTPS, password, CSRF and MFA.
+      # Restrict this further to a VPN/bastion CIDR when available.
+      ADMIN_ALLOWED_CIDRS: 0.0.0.0/0,::/0
+    expose:
+      - "8090"
+    volumes:
+      - theme-store-data:/data
+  caddy:
+    image: caddy:2.10-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+volumes:
+  theme-store-data:
+  caddy-data:
+  caddy-config:

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 2,
+  "brightness": "dark",
+  "colors": {
+    "canvas": "#0A0616",
+    "canvasElevated": "#1A1333",
+    "surface": "#241B42",
+    "surfaceVariant": "#352659",
+    "surfaceSunken": "#050310",
+    "hairline": "#1AFFFFFF",
+    "hairlineStrong": "#2FFFFFFF",
+    "textPrimary": "#F8F7FF",
+    "textSecondary": "#D4C5F9",
+    "textTertiary": "#9D8FCA",
+    "textOnAccent": "#FFFFFF",
+    "accent": "#3B82F6",
+    "accentPress": "#2563EB",
+    "accentSubtle": "#1A3B82F6",
+    "success": "#10B981",
+    "successSubtle": "#1A10B981",
+    "warning": "#F59E0B",
+    "warningSubtle": "#1AF59E0B",
+    "danger": "#EF4444",
+    "dangerSubtle": "#1AEF4444",
+    "favorite": "#EC4899",
+    "scrim": "#CC000000",
+    "shadow": "#66000000",
+    "currentPlaying": "#3B82F6",
+    "rankFirst": "#FBBF24",
+    "rankSecond": "#94A3B8",
+    "rankThird": "#FB923C"
+  },
+  "typo": {
+    "display": {
+      "fontSize": 28,
+      "fontWeight": 700,
+      "letterSpacing": -0.5,
+      "height": 1.2
+    },
+    "title": {
+      "fontSize": 22,
+      "fontWeight": 700,
+      "letterSpacing": -0.2,
+      "height": 1.25
+    },
+    "heading": {
+      "fontSize": 17,
+      "fontWeight": 600,
+      "height": 1.3
+    },
+    "body": {
+      "fontSize": 15,
+      "fontWeight": 500,
+      "height": 1.4
+    },
+    "bodyStrong": {
+      "fontSize": 15,
+      "fontWeight": 600,
+      "height": 1.4
+    },
+    "caption": {
+      "fontSize": 13,
+      "fontWeight": 400,
+      "height": 1.4
+    },
+    "label": {
+      "fontSize": 11,
+      "fontWeight": 500,
+      "letterSpacing": 0.3,
+      "height": 1.2
+    },
+    "numeric": {
+      "fontSize": 13,
+      "fontWeight": 600,
+      "height": 1.2
+    }
+  },
+  "space": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 20,
+    "xxl": 24,
+    "huge": 32,
+    "pageH": 20
+  },
+  "shape": {
+    "xs": 6,
+    "sm": 10,
+    "md": 14,
+    "lg": 20,
+    "pill": 999
+  },
+  "heights": {
+    "navBar": 56,
+    "miniPlayer": 60,
+    "rowCompact": 56,
+    "rowComfortable": 68,
+    "appBarCompact": 44,
+    "touchTarget": 48,
+    "coverLarge": 0.62,
+    "iconSm": 16,
+    "iconMd": 20,
+    "iconLg": 24
+  },
+  "motion": {
+    "fast": 140,
+    "normal": 260,
+    "slow": 340,
+    "pageTransition": 280,
+    "stagger": 32,
+    "enter": "easeOut",
+    "exit": "easeIn",
+    "emphasis": "easeOutCubic",
+    "pressScale": 0.97,
+    "enterOffset": 5
+  },
+  "glass": {
+    "lightBlur": 14,
+    "mediumBlur": 28,
+    "heavyBlur": 45,
+    "lightOpacityDark": 0.75,
+    "mediumOpacityDark": 0.85,
+    "heavyOpacityDark": 0.90,
+    "borderOpacityDark": 0.35,
+    "borderWidth": 0.5,
+    "shadowBlur": 36,
+    "shadowOffsetX": 0,
+    "shadowOffsetY": 12,
+    "shadowOpacityDark": 0.18,
+    "pressScale": 0.97
+  },
+  "player": {
+    "preset": "ambient",
+    "background": {
+      "mode": "gradient"
+    },
+    "cover": {
+      "shape": "rounded",
+      "halo": "pulse",
+      "spin": false
+    },
+    "lyrics": {
+      "align": "center",
+      "highlight": "glow",
+      "activeScale": 4,
+      "inactiveOpacity": [0.55, 0.35, 0.2],
+      "lineHeight": 1.6,
+      "fadeEdge": 0.2,
+      "showTranslation": true
+    },
+    "haloEnabled": true,
+    "haloDuration": 16000,
+    "breathEnabled": true,
+    "breathDuration": 5000,
+    "backgroundBlurIntensity": 75,
+    "backgroundOverlayOpacity": 0.5
+  }
+}

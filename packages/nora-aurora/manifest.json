@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "id": "nora-aurora",
+  "name": "Nora Aurora",
+  "version": "1.0.0",
+  "author": {
+    "name": "NoraMusic Team"
+  },
+  "description": "极光风格深色主题，紫粉渐变氛围，蓝色科技感强调色，梦幻毛玻璃效果",
+  "license": "MIT",
+  "tags": [
+    "dark",
+    "gradient",
+    "aurora",
+    "glass",
+    "modern"
+  ],
+  "brightnessSupport": "dark",
+  "category": "ambient"
+}

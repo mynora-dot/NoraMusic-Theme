@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "id": "nora-cinematic",
+  "name": "Nora Cinematic",
+  "version": "1.0.0",
+  "author": {
+    "name": "NoraMusic Team"
+  },
+  "description": "影院级沉浸式深色主题，增强毛玻璃特效与动态光晕，绿色生命力强调色，专为音乐播放优化",
+  "license": "MIT",
+  "tags": [
+    "dark",
+    "immersive",
+    "cinematic",
+    "glass",
+    "modern"
+  ],
+  "brightnessSupport": "dark",
+  "category": "immersive"
+}

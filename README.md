@@ -90,13 +90,18 @@ NoraMusic-Theme/
 │   ├── 04-player-scene.md        # 播放页定制
 │   ├── 05-assets-and-fonts.md    # 背景图与自定义字体
 │   ├── 06-publishing.md          # 三种分发方式与版本管理
-│   └── 07-faq.md                 # 常见问题
+│   ├── 07-faq.md                 # 常见问题
+│   └── theme-store-server.md     # 独立主题商店部署与 API
 ├── tools/
 │   ├── pack.py               # 校验 + 可重复打包器（Python 3 标准库）
 │   ├── generate_assets.py    # 背景图/预览图生成器（需要 Pillow）
 │   └── README.md             # 工具用法
 ├── packages/
 │   └── starter-theme/        # 入门模板主题（可直接打包安装）
+├── server/                   # 独立主题商店服务（Go + SQLite）
+│   ├── cmd/themestore/       # 服务入口
+│   ├── internal/             # 校验、存储、认证与 API
+│   └── deploy/               # 公网/NAS Docker Compose 示例
 ├── templates/
 │   └── README.md             # 模板说明与新建主题指引
 └── examples/
@@ -112,6 +117,8 @@ NoraMusic-Theme/
 5. [背景图与字体](docs/05-assets-and-fonts.md) —— 加素材。
 6. [发布分发](docs/06-publishing.md) —— 把主题分享给别人。
 7. [FAQ](docs/07-faq.md) —— 出问题时先查这里。
+
+需要自托管主题商店时，参阅 [独立主题商店服务](docs/theme-store-server.md)。服务支持公网强安全模式和 NAS 便捷模式，上传校验与客户端规则保持一致。
 
 ## 许可证
 
